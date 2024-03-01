@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        /* Add your loading animation styles here */
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .loading-text {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .loading-logo {
+            width: 300px;
+            /* Adjust the size as needed */
+            height: auto;
+        }
+
+        .loading-bar {
+            width: 300px;
+            /* Adjust the width as needed */
+            height: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .loading-progress {
+            height: 100%;
+            background-color: #3498db;
+            /* Blue color */
+            transition: width 0.5s ease;
+            /* Smooth transition */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="loading-container">
+        <img src="public/bm-old.png" alt="Bangun Mulyo" class="loading-logo">
+        <div class="loading-text">Memulai Aplikasi Bangun Mulyo...</div>
+        <div class="loading-bar">
+            <div class="loading-progress" id="loadingProgress"></div>
+        </div>
+    </div>
+
+    <script>
+        // Simulate loading progress
+        let progress = 0;
+        const progressBar = document.getElementById('loadingProgress');
+        const progressInterval = setInterval(() => {
+            progress += Math.random() * 5; // Increase progress randomly
+            progressBar.style.width = `${progress}%`;
+            if (progress >= 100) {
+                clearInterval(progressInterval);
+            }
+        }, 100);
+
+    </script>
+</body>
+
+</html>
