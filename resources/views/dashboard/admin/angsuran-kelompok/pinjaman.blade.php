@@ -93,7 +93,7 @@
                                             </td>
                                             <td>
                                                 <div class="d-flex align-items-center fw-medium">
-                                                    <a class="btn btn-sm btn-primary mr-1" href="{{ route('riwayat-angsuran-kelompok.index', ['kelompok' => $pinjaman->id, 'pinjaman_kelompok' => $pinjaman->id]) }}">
+                                                    <a class="btn btn-sm btn-primary mr-1" href="{{ route('riwayat-angsuran-kelompok.index', ['kelompok' => $kelompok, 'pinjaman_kelompok' => $pinjaman->id]) }}">
                                                         <i class="ri-history-fill"></i> <span >@lang('Riwayat Angsuran')</span>
                                                     </a>
                                                     <button class="btn btn-sm btn-info mx-1"  data-bs-toggle="modal" data-bs-target="#showInfoPinjaman{{$pinjaman->id}}">
