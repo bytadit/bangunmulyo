@@ -42,5 +42,3 @@
 - The application does not yet support multiple platforms, but this is necessary for accessibility across various devices.
 
 ---
-
-This description highlights the application's features, technology stack, and known issues in the current version.
