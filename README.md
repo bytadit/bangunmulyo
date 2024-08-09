@@ -1,7 +1,8 @@
 ## Bangun Mulyo Application
+![bangun-mulyo-logo](https://raw.githubusercontent.com/bytadit/bangunmulyo/main/public/bm-old-long.png) 
 
 ### Overview
-**Bangun Mulyo** is a web-based application developed to support the administration, treasury, and inventory activities at the Village-Owned Enterprise (BUMDes) "Bangun Mulyo." The application aims to replace the manual processes previously done on paper, enabling all activities to be carried out more easily, quickly, and efficiently.
+**Bangun Mulyo** is a web-based application developed by me as my own program in "Kuliah Kerja Nyata (KKN)", to support the administration, treasury, and inventory activities at the Village-Owned Enterprise (BUMDes) "Bangun Mulyo." The application aims to replace the manual processes previously done on paper, enabling all activities to be carried out more easily, quickly, and efficiently.
 
 ### Features
 - **Main Dashboard**: Displays information on the number of borrowers and loan status (paid/unpaid) for both groups and individuals, along with contribution income graphs.
