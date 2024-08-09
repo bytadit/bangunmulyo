@@ -3,6 +3,12 @@
 
 ### Overview
 **Bangun Mulyo** is a web-based application developed by me as my own program in "Kuliah Kerja Nyata (KKN)", to support the administration, treasury, and inventory activities at the Village-Owned Enterprise (BUMDes) "Bangun Mulyo." The application aims to replace the manual processes previously done on paper, enabling all activities to be carried out more easily, quickly, and efficiently.
+<p>
+  <img src="https://raw.githubusercontent.com/bytadit/bangunmulyo/main/public/ss-1.png" alt="ss1" style="width: 400px; height: auto; display: inline-block;">
+  <img src="https://raw.githubusercontent.com/bytadit/bangunmulyo/main/public/ss-2.png" alt="ss2" style="width: 400px; height: auto; display: inline-block;">
+  <img src="https://raw.githubusercontent.com/bytadit/bangunmulyo/main/public/ss-3.png" alt="ss3" style="width: 400px; height: auto; display: inline-block;">
+  <img src="https://raw.githubusercontent.com/bytadit/bangunmulyo/main/public/ss-4.png" alt="ss4" style="width: 400px; height: auto; display: inline-block;">
+</p>
 
 ### Features
 - **Main Dashboard**: Displays information on the number of borrowers and loan status (paid/unpaid) for both groups and individuals, along with contribution income graphs.
